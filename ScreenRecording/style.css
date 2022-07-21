@@ -1,0 +1,44 @@
+.record-btn{
+    background-color: rgb(161, 82, 235);
+    color: white;
+    width: 120px; 
+    justify-content: center;
+    text-align: center;
+    padding: 15px; 
+    margin:90px 580px;
+    border-radius: 30px;
+    border: darkblue 2px solid;
+    font-size: 18px;
+    font-family: sans-serif;    
+}
+.record-btn:hover{
+    background-color: rgb(221, 173, 52);
+}
+.record-btn:focus{
+    background-color: gold;
+}
+.video{
+    width:0px;
+}
+p{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:black;
+    font-weight: bold;
+    margin-left:  340px;
+    margin-top: 100px;
+    text-decoration: none;
+    border: none;
+}
+*{
+    background-color:rgb(137, 107, 207);
+    margin: 0%;
+}
+@media (min-width:400px) {
+    .p{
+        font-size: 50px;
+    }
+    .record-btn{
+        font-size: medium;
+    }
+}
